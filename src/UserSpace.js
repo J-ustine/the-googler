@@ -4,7 +4,7 @@ import NotesList from "./NotesList";
 
 export default function UserSpace() {
   return (
-    <div>
+    <div className="user-space">
       <Form />
       <NotesList />
     </div>
