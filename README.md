@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# The Googler app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is a note-taking web application where you can add your note. It has been built in one day for the international femhack organized by [NUME](https://femhack.nuwe.io/).
 
-## Available Scripts
+# Requirements
 
-In the project directory, you can run:
+The app prototype has to allow their users to:
 
-### `npm start`
+* Login and register (no persistence required)
+* Take a new note that contains two kinds of text:
+  * Title
+  * Description
+* Visualize the notes in a grid/list view
+* Add tags to the notes
+* Delete notes
+* Edit notes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Project access
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You will be able to access this project by running the following command :
+`npm start`
 
-### `npm test`
+# Documentation Decisions taken
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**React** was chosen for this project for its ability to be fast, scalable, and simple.
+<br/>
+**React-router** was preferred in this project because it allows us to build a single-page web application with navigation without the page refreshing as the user navigates.
+<br/>
+**Bootstrap** did not have its usual use in this project because I wanted to make an app with the colors and design of NUWE and femhack. So I preferred to stay on classic css.
