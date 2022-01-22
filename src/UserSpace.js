@@ -8,7 +8,7 @@ export default function UserSpace() {
   return (
     <div className="user-space">
       <Form setNotesList={setNotesList} notesList={notesList} />
-      <NotesList notesList={notesList} />
+      <NotesList setNotesList={setNotesList} notesList={notesList} />
     </div>
   );
 }
