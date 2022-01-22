@@ -1,16 +1,13 @@
 import "./App.css";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Login from "./Login";
 import Register from "./Register";
+import Header from "./Header";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <nav>
-          <Link to="login">Login</Link> | <Link to="register">Register</Link>
-        </nav>
-      </header>
+      <Header />
       <Routes>
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />

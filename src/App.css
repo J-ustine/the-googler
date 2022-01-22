@@ -5,13 +5,20 @@
 @media (prefers-reduced-motion: no-preference) {
 }
 
-.App-header {
-  background-color: #282c34;
+.header {
+  padding: 10px;
+  background-color: #14151f;
   min-height: 20vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.brand {
+  text-align: left;
+  font-size: calc(10px + 4vmin);
+  color: #7e49e6;
+}
+
+nav {
+  color: #54964f;
+  text-decoration: none;
 }
