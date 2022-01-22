@@ -9,13 +9,13 @@ export default function Login() {
       <form action="">
         <label htmlFor="">Email</label>
         <input
-          type="login"
+          type="email"
           className="login-input"
           placeholder="Enter your email"
         />
         <label htmlFor="">Password</label>
         <input
-          type="text"
+          type="password"
           className="login-input"
           placeholder="Enter your password"
         />

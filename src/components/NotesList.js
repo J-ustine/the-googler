@@ -16,7 +16,7 @@ export default function NotesList(props) {
   }
 
   return props.notesList.length === 0 ? (
-    <h3>"You don't have notes yet"</h3>
+    <h3>You don't have notes yet</h3>
   ) : (
     <div>
       <ul className="notes-list">
