@@ -1,4 +1,7 @@
 import React from "react";
+import Form from "./Form";
+import NotesList from "./NotesList";
+import { Routes, Route, Link } from "react-router-dom";
 
 export default function Register() {
   return (
@@ -13,7 +16,7 @@ export default function Register() {
         <input type="email" />
         <label htmlFor="">Password</label>
         <input type="password" />
-        <input type="button" value="Register" />
+        <input type="submit" value="Register" />
       </form>
     </div>
   );
