@@ -8,13 +8,29 @@ export default function Register() {
       <h3>Register</h3>
       <form action="">
         <label htmlFor="">First name</label>
-        <input type="text" className="register-input" />
+        <input
+          type="text"
+          className="register-input"
+          placeholder="Enter your First name"
+        />
         <label htmlFor="">Last name</label>
-        <input type="text" className="register-input" />
+        <input
+          type="text"
+          className="register-input"
+          placeholder="Enter your Last name"
+        />
         <label htmlFor="">Email address</label>
-        <input type="email" className="register-input" />
+        <input
+          type="email"
+          className="register-input"
+          placeholder="Enter your email"
+        />
         <label htmlFor="">Password</label>
-        <input type="password" className="register-input" />
+        <input
+          type="password"
+          className="register-input"
+          placeholder="Enter a password"
+        />
         <Link
           to="userSpace"
           style={{ textDecoration: "none" }}
