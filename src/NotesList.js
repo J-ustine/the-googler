@@ -1,5 +1,7 @@
 import React from "react";
 import Delete from "./Delete";
+import Tags from "./Tags";
+
 import "./NotesList.css";
 
 export default function NotesList(props) {
@@ -14,7 +16,7 @@ export default function NotesList(props) {
               <h2>{item.title}</h2>
               <p className="note-description">{item.description}</p>
               <p>Edit</p>
-              <p>Tags</p>
+              <Tags />
               <Delete
                 title={item.title}
                 description={item.description}
