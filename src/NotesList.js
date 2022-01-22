@@ -1,16 +1,20 @@
 import React from "react";
-import Note from "./Note";
 import Delete from "./Delete";
 
-export default function NotesList() {
+export default function NotesList(props) {
   return (
     <div>
       <ul>
-        <li>
-          <Note />
-        </li>
+        {props.notesList.map((item, index) => {
+          return (
+            <li key={index}>
+              <h5>{item.title}</h5>
+              <p>{item.description}</p>
+              <Delete />
+            </li>
+          );
+        })}
       </ul>
-      <Delete />
     </div>
   );
 }
