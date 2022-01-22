@@ -1,7 +1,5 @@
 import React from "react";
-import Form from "./Form";
-import NotesList from "./NotesList";
-import { Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Login() {
   return (
@@ -14,7 +12,9 @@ export default function Login() {
         <input type="text" />
         <input type="checkbox" name="" id="" />
         <label htmlFor="">Remember me</label>
-        <input type="submit" value="Submit" />
+        <Link to="userSpace" style={{ textDecoration: "none" }}>
+          Submit
+        </Link>
         <p>
           Forgot <a href="/">password</a>
         </p>
