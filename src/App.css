@@ -2,6 +2,7 @@
   background: #1c1e2b;
   text-align: center;
   min-height: 100vh;
+  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -15,6 +15,8 @@ export default function Header() {
         className="nav-link"
         style={{
           textDecoration: "none",
+          position: "relative",
+          top: "-20px",
           color: "#54964f",
           padding: "6px 12px",
           margin: "10px",
@@ -29,6 +31,8 @@ export default function Header() {
         className="nav-link"
         style={{
           textDecoration: "none",
+          position: "relative",
+          top: "-20px",
           color: "#54964f",
           padding: "6px 12px",
           margin: "10px",
