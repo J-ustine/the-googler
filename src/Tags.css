@@ -1,0 +1,35 @@
+.add-tags {
+  background-color: #7e49e6;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}
+
+.tags-list {
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.label {
+  margin: 5px 10px 5px 0;
+}
+
+.input-tag {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.tag {
+  background: #eee;
+  border-radius: 3px;
+  color: #999;
+  line-height: 26px;
+  padding: 5px 23px;
+  margin: 10px;
+}

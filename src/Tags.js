@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Tags.css";
 
 export default function Tags(props) {
   const [tags, setTags] = useState([]);
@@ -11,23 +12,45 @@ export default function Tags(props) {
 
   function saveTags() {
     setTags([...tags, tag]);
-    setIsActive(true);
+    setIsActive(false);
+    setTag("");
   }
 
-  return tags.length === 0 && !isActive ? (
+  return !isActive ? (
     <div>
-      <button onClick={addTags}>Add Tags</button>
+      <div>
+        {tags.map((item, index) => (
+          <span className="tag" key={index}>
+            #{item}{" "}
+          </span>
+        ))}
+      </div>
+      <button onClick={addTags} className="add-tags">
+        Add Tags
+      </button>
     </div>
   ) : (
     <div>
-      <div className="tags">
+      <div>
         {tags.map((item, index) => (
-          <span key={index}>#{item} </span>
+          <span className="tag" key={index}>
+            #{item}{" "}
+          </span>
         ))}
       </div>
-      <label htmlFor="">Tags</label>
-      <input type="text" onChange={(e) => setTag(e.target.value)} />
-      <button onClick={saveTags}>Save</button>
+      <div className="tags-list">
+        <label htmlFor="" className="label">
+          Tags
+        </label>
+        <input
+          type="text"
+          className="input-tag"
+          onChange={(e) => setTag(e.target.value)}
+        />
+        <button onClick={saveTags} className="add-tags">
+          Save
+        </button>
+      </div>
     </div>
   );
 }
