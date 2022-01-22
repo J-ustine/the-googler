@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Tags.css";
+import "../style/Tags.css";
 
 export default function Tags(props) {
   const [tags, setTags] = useState([]);

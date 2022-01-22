@@ -1,0 +1,24 @@
+.header {
+  padding: 10px;
+  background-color: #252738;
+  min-height: 10px;
+  color: white;
+}
+
+.brand {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: left;
+  font-size: calc(10px + 4vmin);
+  color: #54964f;
+}
+
+.letter {
+  color: #7e49e6;
+}
+
+img {
+  position: relative;
+  width: 50px;
+  margin: 0;
+  padding: 0;
+}

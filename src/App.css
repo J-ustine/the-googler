@@ -1,24 +1,8 @@
 .App {
+  background: #1c1e2b;
   text-align: center;
+  min-height: 100vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-}
-
-.header {
-  padding: 10px;
-  background-color: #14151f;
-  min-height: 20px;
-  color: white;
-}
-
-.brand {
-  text-align: left;
-  font-size: calc(10px + 4vmin);
-  color: #7e49e6;
-}
-
-nav {
-  color: #54964f;
-  text-decoration: none;
 }

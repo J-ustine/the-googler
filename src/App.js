@@ -1,9 +1,9 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Login from "./Login";
-import Register from "./Register";
-import Header from "./Header";
-import UserSpace from "./UserSpace";
+import Login from "./components/Login";
+import Register from "./components/Register";
+import Header from "./components/Header";
+import UserSpace from "./components/UserSpace";
 
 function App() {
   return (

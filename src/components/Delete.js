@@ -1,12 +1,12 @@
 import React from "react";
-import "./Delete.css";
+import "../style/Delete.css";
 
 export default function Delete(props) {
   function deleteNote(e) {
     e.preventDefault();
     props.setNotesList(
-      props.notesList.filter(function (ele) {
-        return ele.title !== props.title;
+      props.notesList.filter(function (e) {
+        return e.title !== props.title;
       })
     );
   }

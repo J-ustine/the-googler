@@ -20,3 +20,10 @@
   padding: 10px 35px 25px 35px;
   margin-top: 30px;
 }
+
+i {
+  position: relative;
+  float: right;
+  overflow: hidden;
+  cursor: pointer;
+}

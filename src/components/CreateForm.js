@@ -1,19 +1,17 @@
-import React, { useState } from "react";
-import "./Form.css";
+import React from "react";
+import "../style/CreateForm.css";
 
-export default function Form(props) {
-  const [note, setNote] = useState({ title: "", description: "" });
-
+export default function CreateForm(props) {
   function createNote(e) {
     e.target.name === "title"
-      ? setNote({ ...note, title: e.target.value })
-      : setNote({ ...note, description: e.target.value });
+      ? props.setNote({ ...props.note, title: e.target.value })
+      : props.setNote({ ...props.note, description: e.target.value });
   }
 
   function addNote(e) {
     e.preventDefault();
-    props.setNotesList([...props.notesList, note]);
-    setNote({ title: "", description: "" });
+    props.setNotesList([...props.notesList, props.note]);
+    props.setNote({ title: "", description: "" });
   }
 
   return (
@@ -26,15 +24,16 @@ export default function Form(props) {
         className="createForm-input"
         name="title"
         onChange={createNote}
-        value={note.title}
+        value={props.note.title}
       />
       <label htmlFor="">Description</label>
       <textarea
         placeholder="Enter your note description"
         className="createForm-input"
         name="description"
+        rows="4"
         onChange={createNote}
-        value={note.description}
+        value={props.note.description}
       ></textarea>
       <button className="createForm-button">Create</button>
     </form>
