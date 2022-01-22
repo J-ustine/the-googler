@@ -45,7 +45,9 @@ export default function NotesList(props) {
                     className="note-description"
                     defaultValue={item.description}
                   />
-                  <button onClick={saveEdit}>Save</button>
+                  <button className="save-edit" onClick={saveEdit}>
+                    Save
+                  </button>
                 </div>
               )}
               <Tags />
