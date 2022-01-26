@@ -1,6 +1,10 @@
 # The Googler app
+<img width="950" alt="Capture d’écran 2022-01-26 à 18 37 04" src="https://user-images.githubusercontent.com/78701219/151234399-c071eaac-a917-45af-8f5b-1bd07c066719.png">
+<img width="975" alt="Capture d’écran 2022-01-26 à 18 37 26" src="https://user-images.githubusercontent.com/78701219/151234314-89a18145-90a6-4852-aaeb-6d94d39d93fd.png">
 
-It is a note-taking web application where you can add your note. It has been built in one day for the international femhack organized by [NUME](https://femhack.nuwe.io/).
+
+It is a note-taking web application where you can add your note. It has been built in one day for the international femhack org
+anized by [NUME](https://femhack.nuwe.io/).
 
 # Requirements
 
