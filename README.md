@@ -23,6 +23,7 @@ The app prototype has to allow their users to:
 
 You will be able to access this project by running the following command :
 `npm start`
+You can also see the project [here](https://angry-johnson-6566b1.netlify.app/).
 
 # Documentation Decisions taken
 
